@@ -23,7 +23,7 @@
     "Express"
   ],
   "author": "Mateusz Waszkiewicz",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mwaszkiewicz/typescript-rest-api/issues"
   },
