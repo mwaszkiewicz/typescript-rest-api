@@ -1,0 +1,11 @@
+{
+    "restartable": "rs",
+    "ignore": [".git", "node_modules/", "dist/", "coverage/"],
+    "watch": ["src"],
+    "exec": "node -r tsconfig-paths/register -r ts-node/register",
+    "env": {
+      "NODE_ENV": "development",
+      "NODE_CONFIG_DIR": "./src/config"
+    },
+    "ext": "js,json,ts"
+}
