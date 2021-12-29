@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`controller.service Create car 1`] = `
+Object {
+  "brand": "Audi",
+  "model": "A4",
+  "vin": "12345",
+}
+`;
+
+exports[`controller.service Get all cars 1`] = `
+Array [
+  Object {
+    "brand": "Audi",
+    "model": "A4",
+    "vin": "12345",
+  },
+  Object {
+    "brand": "BMW",
+    "model": "X3",
+    "vin": "65432",
+  },
+]
+`;
