@@ -1,0 +1,13 @@
+{
+  "preset": "ts-jest",
+  "transform": {
+    "^.+\\.(t|j)sx?$": "ts-jest"
+  },
+  "testRegex": [".spec.ts$", ".spec.js$"],
+  "collectCoverage": true,
+  "setupFiles": ["<rootDir>/test/setEnvVars.js"],
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ]
+}

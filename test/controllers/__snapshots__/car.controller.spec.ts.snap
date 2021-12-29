@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`car.controller create car endpoint 1`] = `
+Object {
+  "car": Object {
+    "brand": "Audi",
+    "model": "A4",
+    "vin": "12345",
+  },
+  "message": "Car created",
+}
+`;
+
+exports[`car.controller delete car endpoint 1`] = `
+Object {
+  "message": "Removed car: 1",
+}
+`;
+
+exports[`car.controller get all cars endpoint 1`] = `
+Object {
+  "result": Array [
+    Object {
+      "brand": "Audi",
+      "model": "A4",
+      "vin": "12345",
+    },
+    Object {
+      "brand": "BMW",
+      "model": "X3",
+      "vin": "65432",
+    },
+  ],
+}
+`;
+
+exports[`car.controller update car endpoint 1`] = `
+Object {
+  "message": "Car updated: true",
+}
+`;
