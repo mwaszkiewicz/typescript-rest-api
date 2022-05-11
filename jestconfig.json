@@ -5,7 +5,7 @@
   },
   "testRegex": [".spec.ts$", ".spec.js$"],
   "collectCoverage": true,
-  "setupFiles": ["<rootDir>/test/setEnvVars.js"],
+  "setupFiles": ["<rootDir>/test/setEnvVars.ts"],
   "moduleDirectories": [
     "node_modules",
     "src"

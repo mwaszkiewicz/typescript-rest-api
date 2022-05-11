@@ -1,5 +1,4 @@
 import express, { Application } from 'express';
-import expressRequestId from 'express-request-id';
 import pino from 'express-pino-logger';
 
 export default class HttpOptions {
@@ -16,10 +15,6 @@ export default class HttpOptions {
 
   useHttpPino = (): void => {
     this.#apiInstance.use(pino());
-  }
-
-  useExpressRequestId = (): void => {
-    this.#apiInstance.use(expressRequestId());
   }
 
   build = (): Application => {

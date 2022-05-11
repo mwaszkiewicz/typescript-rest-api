@@ -11,7 +11,6 @@ const logger = pino();
 const options = new HttpOptions();
 
 options.useBodyParser();
-options.useExpressRequestId();
 options.useHttpPino();
 
 const carService = new CarService(logger);
